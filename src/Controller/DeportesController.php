@@ -10,5 +10,11 @@ class DeportesController {
       public function inicio() {
           return new Response('Mi primera pagina en Symfony!');
       }
+      /**
+      * @Route("/deportes/primer-articulo")
+      */
+      public function mostrar() {
+          return new Response('Mi primera ruta Primer Artículo!');
+    }
 
 }
